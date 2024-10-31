@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="src/styles/styles.css"/>
+    <link rel="stylesheet" href="src/styles/adaptive.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header class="header">
+    <a href="#about" class="logo"><span>Зуев Дмитрий</span></a>
+    <nav>
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience-info">Experience</a>
+            </li>
+            <li>
+                <a href="#skills-info">Skills</a>
+            </li>
+            <li>
+                <a href="#project">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <a class="btn-visit" href="https://github.com/phoenix-intensive" target="_blank">Visit Github</a>
+</header>
+
+
+<section class="about" id="about">
+    <div class="about-container">
+        <img src="static/images/ava.png" alt="avatar">
+        <div class="info-box">
+            <div class="text">
+                <h3>Привет, я</h3>
+                <h1>Зуев Дмитрий</h1>
+                <span>Frontend Developer</span>
+                <h3>(Angular, JavaScript, TypeScript)</h3>
+            </div>
+            <div class="btn-group">
+                <a href="static/myResume.pdf" download class="btn">Скачать резюме</a>
+            </div>
+
+            <div class="socials">
+                <a href="https://github.com/phoenix-intensive" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://t.me/dmitriyphoenixteam" target="_blank">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="experience-skills">
+    <div class="experience-info" id="experience-info">
+        <h2 class="experience-title">Experience</h2>
+        <div class="experience-card">
+            <i class="fa-solid fa-file-code"></i>
+            <span>Frontend Development</span>
+            <p>Angular Developer с опытом создания интерактивных веб-приложений. Специализируюсь на SPA и управлении
+                пользовательскими интерфейсами для различных проектов. Опыт работы с Angular (версии 14–18), JavaScript,
+                и TypeScript в сочетании с популярными UI-библиотеками и инструментами, такими как RxJS, ng-bootstrap, и
+                Angular Material</p>
+        </div>
+    </div>
+
+    <div class="skills-info" id="skills-info">
+        <h2 class="skills-title">Skills</h2>
+        <div class="skills-list">
+            <span><h3>Framework:</h3>Angular, RxJS, Angular Material и UI-библиотеки</span>
+            <span><h3>Языки программирования:</h3>JavaScript, TypeScript</span>
+            <span><h3>API и базы данных:</h3>RESTful API, MongoDb</span>
+            <span><h3>Верстка:</h3>HTML, CSS, SCSS/SASS, Less, Bootstrap</span>
+            <span><h3>Дополнительные технологии:</h3>Git, GitHub, Webpack, Gulp, npm</span>
+            <span><h3>Графические редакторы:</h3>Figma, Photoshop</span>
+        </div>
+    </div>
+</section>
+
+
+<section class="project" id="project">
+    <h2 class="project-title">Projects Angular</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <div class="project-wrapper-flower">
+                <img src="static/images/project.jpg" alt="project">
+            </div>
+            <h3>Home Decor</h3>
+            <div class="project-card-description">
+                Home Decor - это интернет-магазин, включающий в себя функциональность каталога с фильтрацией товаров,
+                возможностью добавления их в корзину и сохранения в избранные.
+                Пользователи могут регистрироваться и авторизовываться, а также управлять своими заказами и профилем в
+                разделе личного кабинета.
+            </div>
+            <div class="btn-group">
+                <a href="https://phoenix-intensive.github.io/flower-shop/" target="_blank" class="btn">Открыть</a>
+                <a href="https://github.com/phoenix-intensive/flower-shop" target="_blank" class="btn">Github Repo</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-wrapper-web">
+                <img src="static/images/project2.jpg" alt="project">
+            </div>
+            <h3>Web Studio</h3>
+            <div class="project-card-description">
+                Web Studio — это приложение, предназначенное для предоставления услуг по продвижению рекламы,
+                кооперайтинга, SMM и дизайна.
+            </div>
+            <div class="btn-group">
+                <a href="https://phoenix-intensive.github.io/web-studio/" target="_blank" class="btn">Открыть</a>
+                <a href="https://github.com/phoenix-intensive/web-studio" target="_blank" class="btn">Github Repo</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-wrapper-tic-talk">
+                <img src="static/images/project11.jpg" alt="project">
+            </div>
+            <h3>Tic-Talk</h3>
+            <div class="project-card-description">
+                Tic-Talk — это платформа для общения и сотрудничества разработчиков, предоставляющая возможность для
+                создания профиля, поиска других пользователей.
+            </div>
+            <div class="btn-group">
+                <a href="https://phoenix-intensive.github.io/tic-talk/" target="_blank" class="btn">Открыть</a>
+                <a href="https://github.com/phoenix-intensive/tic-talk" target="_blank" class="btn">Github Repo</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-wrapper-quiz">
+                <img src="static/images/project4.jpg" alt="project">
+            </div>
+            <h3>Quiz</h3>
+            <div class="project-card-description">
+                Quiz — это приложение, предназначенное для проверки знаний JavaScript. Проект
+                состоит из трех уровней сложности тестов, а также включает функционал анализа ответов после выполнения
+                теста на правильность. Пользователи могут входить в Quiz с авторизацией и регистрацией.
+            </div>
+            <div class="btn-group">
+                <a href="https://phoenix-intensive.github.io/quiz" target="_blank" class="btn">Открыть</a>
+                <a href="https://github.com/phoenix-intensive/quiz" target="_blank" class="btn">Github Repo</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-wrapper-burgers">
+                <img src="static/images/project3.jpg" alt="project">
+            </div>
+            <h3>Burger House</h3>
+            <div class="project-card-description">
+                Проект Burger House - приложение разработано для демонстрации простой, но функциональной системы заказа
+                бургеров, позволяющей пользователям просматривать меню, выбирать любимые бургеры и легко размещать
+                заказы.
+            </div>
+            <div class="btn-group">
+                <a href="https://phoenix-intensive.github.io/burgers-shop" target="_blank" class="btn">Открыть</a>
+                <a href="https://github.com/phoenix-intensive/burgers-shop" target="_blank" class="btn">Github Repo</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-wrapper-tea">
+                <img src="static/images/project5.jpg" alt="project">
+            </div>
+            <h3>Tea Shop</h3>
+            <div class="project-card-description">
+                Tea Shop - это Angular-приложение предоставляющий магазин различных сортов чая, и возможности оформления
+                заказов и поиска продуктов. Приложение структурировано как одностраничное приложение (SPA).
+            </div>
+            <div class="btn-group">
+                <a href="https://phoenix-intensive.github.io/tea-shop" target="_blank" class="btn">Открыть</a>
+                <a href="https://github.com/phoenix-intensive/tea-shop" target="_blank" class="btn">Github Repo</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="project">
+    <h2 class="project-title">Projects JS</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <div class="project-wrapper-finance">
+                <img src="static/images/project7.jpg" alt="project">
+            </div>
+            <h3>Lumincoin Finance</h3>
+            <div class="project-card-description">
+                Single Page Application (SPA) проект, который помогает пользователям эффективно отслеживать свои доходы
+                и
+                расходы.
+            </div>
+            <div class="btn-group">
+                <a href="https://github.com/phoenix-intensive/Lumincoin-Finance-JS" target="_blank" class="btn">Github
+                    Repo</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-wrapper-freelance">
+                <img src="static/images/project8.jpg" alt="project">
+            </div>
+            <h3>Freelance Studio</h3>
+            <div class="project-card-description">
+                Single Page Application (SPA) проект, разработанный для внутренних операций фриланс-студии,
+                позволяющее управлять задачами и заказами для команд.
+            </div>
+            <div class="btn-group">
+                <a href="https://github.com/phoenix-intensive/freelance-studio" target="_blank" class="btn">Github
+                    Repo</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-wrapper-mint">
+                <img src="static/images/project9.jpg" alt="project">
+            </div>
+            <h3>Mint Lounge Landing</h3>
+            <div class="project-card-description">
+                Mint Lounge — это интерактивный лендинг для ресторана, созданный для упрощения онлайн-бронирования
+                столиков и улучшения взаимодействия с клиентами.
+                Приложение позволяет пользователям выбрать и забронировать столик на желаемое время.
+            </div>
+            <div class="btn-group">
+                <a href="https://phoenix-intensive.github.io/mint-lounge" target="_blank" class="btn">Открыть</a>
+                <a href="https://github.com/phoenix-intensive/mint-lounge" target="_blank" class="btn">Github Repo</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-wrapper-macaroons">
+                <img src="static/images/project10.jpg" alt="project">
+            </div>
+            <h3>Macaroons Online Store Landing</h3>
+            <div class="project-card-description">
+                Проект Macaroons Online Store Landing — это лендинг для онлайн-магазина по продаже макарунов,
+                предлагающий пользователям удобный способ оставить заявку на интересующий товар. Заявка отправляется в
+                Telegram, что позволяет быстро обрабатывать заказы.
+            </div>
+            <div class="btn-group">
+                <a href="https://phoenix-intensive.github.io/macaroons-shop" target="_blank" class="btn">Открыть</a>
+                <a href="https://github.com/phoenix-intensive/macaroons-shop" target="_blank" class="btn">Github
+                    Repo</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <section class="contact-section">
+        <h2 class="contact-title">Contact</h2>
+        <div class="contact-container">
+            <div class="contact-item">
+                <a href="mailto:your.email@example.com">phoenixmarketing@yandex.ru
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="https://t.me/dmitriyphoenixteam" target="_blank">
+                    Telegram
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="https://github.com/phoenix-intensive" target="_blank">
+                    Github
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+<footer class="footer">
+    <ul>
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#experience-info">Experience</a>
+        </li>
+        <li>
+            <a href="#skills-info">Skills</a>
+        </li>
+        <li>
+            <a href="#project">Projects</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+
+    <p class="copyrights">© 2024 Все права защищены</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
